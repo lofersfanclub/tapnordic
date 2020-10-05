@@ -2,13 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 
 $theme-colors: (
-  "primary": #190d20,
+  "primary": #2857f3,
   "danger": #ff4136
 );
 
 $enable-rounded: false;
 
 $font-family-base:'Oswald', sans-serif;
+
+.bd-callout-warning {
+    border-left-color: $warning;
+  }
+
+  .bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
 
 
 
