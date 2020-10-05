@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 
 $theme-colors: (
-  "primary": #2857f3,
+  "primary": #850cc6,
   "danger": #ff4136
 );
 
@@ -10,9 +10,10 @@ $enable-rounded: false;
 
 $font-family-base:'Oswald', sans-serif;
 
-.bd-callout-warning {
-    border-left-color: $warning;
-  }
+.btn{
+  text-transform: uppercase;
+}
+
 
   .bd-callout {
     padding: 1.25rem;
@@ -23,6 +24,11 @@ $font-family-base:'Oswald', sans-serif;
     border-radius: .25rem;
 }
 
+.bd-callout-warning {
+    border-left-color: $warning;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
