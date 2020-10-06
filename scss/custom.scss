@@ -10,25 +10,38 @@ $enable-rounded: false;
 
 $font-family-base:'Oswald', sans-serif;
 
+
+
+#sidebar{
+  position: fixed;
+  width: 100px;
+  height: 100vh;
+  background-color: #000;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 .btn{
   text-transform: uppercase;
 }
 
 
-  .bd-callout {
-    padding: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    border: 1px solid #eee;
-    border-left-width: .25rem;
-    border-radius: .25rem;
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  border-radius: .25rem;
 }
 
 .bd-callout-warning {
     border-left-color: $warning;
+    border-left-width: 20px;
 }
 
-
-@import "../node_modules/bootstrap/scss/bootstrap";
+.container{
+  margin-left: 100px;
+}
 
 

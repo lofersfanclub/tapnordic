@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap");
-.btn {
-  text-transform: uppercase;
+#sidebar {
+  position: fixed;
+  width: 100px;
+  height: 100vh;
+  background-color: #000;
 }
 
 /*!
@@ -10543,6 +10546,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.btn {
+  text-transform: uppercase;
+}
+
 .bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -10554,5 +10561,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bd-callout-warning {
   border-left-color: #ffc107;
+  border-left-width: 20px;
+}
+
+.container {
+  margin-left: 100px;
 }
 /*# sourceMappingURL=custom.css.map */
